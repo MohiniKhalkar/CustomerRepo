@@ -61,4 +61,8 @@ public class CustomerController {
     public String hello(){
         return "full stack java developer";
     }
+    @GetMapping("/service")
+    public String service(){
+        return"Delevopment|QR Code";
+    }
 }
